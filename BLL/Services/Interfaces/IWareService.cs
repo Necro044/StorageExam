@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace BLL.Services.Interfaces
 {
-    interface IWareService
+    public interface IWareService
     {
         Task CreateWare();
         Task ChangeDescription();

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BLL.Services
 {
-    class StorageService : IStorageService
+    public class StorageService : IStorageService
     {
         public Task AddWare()
         {

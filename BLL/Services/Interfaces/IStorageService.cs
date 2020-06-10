@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace BLL.Services.Interfaces
 {
-    interface IStorageService
+    public interface IStorageService
     {
         Task AddWare();
         Task ChangeDescription();

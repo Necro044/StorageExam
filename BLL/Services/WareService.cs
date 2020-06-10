@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BLL.Services
 {
-    class WareService : IWareService
+    public class WareService : IWareService
     {
         public WareService() { 
         
