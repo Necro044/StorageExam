@@ -15,7 +15,7 @@ namespace DAL.Context
             : base(options) { }
         public DbSet<Ware> Wares { get; set; }
         public DbSet<FoodProduct> Products { get; set; }
-        public DbSet<Storage> storages { get; set; }
+        public DbSet<Storage> Storages { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
