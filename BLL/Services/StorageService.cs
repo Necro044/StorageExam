@@ -8,7 +8,7 @@ namespace BLL.Services
 {
     public class StorageService : IStorageService
     {
-        public Task AddWare()
+        public Task AddStorage()
         {
             return null;
         }
@@ -16,7 +16,7 @@ namespace BLL.Services
         {
             return null;
         }
-        public Task DeleteWare()
+        public Task DeleteStorage()
         {
             return null;
         }

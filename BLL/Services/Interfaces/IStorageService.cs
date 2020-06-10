@@ -7,8 +7,8 @@ namespace BLL.Services.Interfaces
 {
     public interface IStorageService
     {
-        Task AddWare();
+        Task AddStorage();
         Task ChangeDescription();
-        Task DeleteWare();
+        Task DeleteStorage();
     }
 }
